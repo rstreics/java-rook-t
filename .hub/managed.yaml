@@ -1,0 +1,35 @@
+parameters:
+  - name: application.description
+    value: Java microservice with Spring Boot
+  - name: application.ingress
+    value: javarook.app.largerook.mydev3.dev.superhub.io
+  - name: application.name
+    value: javarook
+  - name: application.namespace
+    value: applications
+  - name: application.path
+    value: /
+  - name: application.replicas
+    value: '1'
+  - name: component.dex.okta.appId
+    value: 0oalc878w7XxYpg4F0h7
+  - name: component.dex.okta.clientId
+    value: 0oalc878w7XxYpg4F0h7
+  - name: component.dex.okta.issuer
+    value: 'https://dev-458481.oktapreview.com'
+  - name: component.github.repository.name
+    value: java-rook-t
+  - name: component.github.repository.organization
+    value: rstreics
+outputs:
+  - name: application.description
+  - name: application.ingress
+  - name: application.name
+  - name: application.namespace
+  - name: application.path
+  - name: application.replicas
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
